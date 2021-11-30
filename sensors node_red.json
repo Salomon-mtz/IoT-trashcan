@@ -1,0 +1,883 @@
+[
+    {
+        "id": "4a963c049b854564",
+        "type": "tab",
+        "label": "Flow 5",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "84573a6c33069c81",
+        "type": "aedes broker",
+        "z": "4a963c049b854564",
+        "name": "mqqt-broker-ultrsonic-sensors",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "8090",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "dburl": "",
+        "usetls": false,
+        "x": 440,
+        "y": 60,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "844df7a7831bf045",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor0/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 120,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "0a9e842f2b6ede14",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor1/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 160,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "5b3b13fbe8210c90",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor2/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 200,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "ebfb595ed56b9ffc",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor3/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 240,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "6208262a2f0a19d3",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor4/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 280,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "facb7c8d068f7248",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor5/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 320,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "e3a613c971048309",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor6/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 360,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "c93f13b41817ae8b",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor7/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 400,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "564187554582e9bd",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor8/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 440,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "c135fcf79f5732f8",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor9/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 400,
+        "y": 480,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "9b9adde29a170320",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor10/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 520,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "ae9b0d5871dddee7",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor11/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 560,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "5cd0ad049b30f79c",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor12/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 600,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "05e92c1e2f543c32",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor13/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 640,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "084c5f608bb7ef5e",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor14/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 680,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "17da65db898ec61f",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor15/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 720,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "0c2f7ab27d3f41fc",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor16/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 760,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "5542697c1d73eced",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor17/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 800,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "ce299f24c5cbb6f2",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor18/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 840,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "fff245a220f4a657",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor19/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 880,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "d43aa42fa8ef2255",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor20/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 920,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "888946cc0671e118",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor21/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 960,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "6d05a6c7b834cdcd",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor22/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 1000,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "39983136ae1f3a04",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor23/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 1040,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "97e875158a07c10e",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor24/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 1080,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "67963c42ada1fb6d",
+        "type": "function",
+        "z": "4a963c049b854564",
+        "name": "",
+        "func": "var topic = msg.topic;\n\nvar rec_msg = msg.payload.toString();\nvar rec_msg_arr = rec_msg.split(\";\");\nvar time = rec_msg_arr[0].split(\"=\")[1];\nvar measure = Number(rec_msg_arr[1].split(\"=\")[1]);\nvar num = measure;\nvar nresult = parseFloat(num.toFixed(2));\nvar coord = rec_msg_arr[2].split(\"=\")[1];\n\nvar f_measure = \"meas_\".concat(topic);\nvar o_meas = flow.get(f_measure)||0;\n\n\nif(nresult < 0)\n    flow.set(f_measure, \"error\");\nelse if(nresult >= 30)\n    flow.set(f_measure, \"unreadable\");\nelse if((nresult >= 21.5) && (nresult <= 30))\n    flow.set(f_measure, \"20%\");\nelse if((nresult >= 15) && (nresult <= 21.5))\n    flow.set(f_measure, \"50%\");\nelse if((nresult >= 6) && (nresult <= 15))\n    flow.set(f_measure, \"75%\");\nelse if((nresult >= 0) && (nresult <= 6))\n    flow.set(f_measure, \"75%\");\nelse\n    flow.set(f_measure, nresult);\n\nmsg.payload = {\n    name:topic.split(\"/\")[0],\n    measure_label: flow.get(f_measure),\n    measure_value: nresult,\n    SIDC: \"ENOPA-------\",\n    options: { \"fillOpacity\":0.8, \"additionalInformation\":flow.get(f_measure)},\n    lat: Number(coord.split(\":\")[0]),\n    lon: Number(coord.split(\":\")[1])\n}\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 580,
+        "wires": [
+            [
+                "0a3f109ff221bc05",
+                "5b929568e5b3c9b5"
+            ]
+        ]
+    },
+    {
+        "id": "7cc7f0c2b454c2d3",
+        "type": "debug",
+        "z": "4a963c049b854564",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "5b929568e5b3c9b5",
+        "type": "worldmap",
+        "z": "4a963c049b854564",
+        "name": "",
+        "lat": "19.34101",
+        "lon": " -99.1373",
+        "zoom": "18",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "none",
+        "showgrid": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "",
+        "maplist": "OSMG,OSMC",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 880,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "0a3f109ff221bc05",
+        "type": "json",
+        "z": "4a963c049b854564",
+        "name": "JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 910,
+        "y": 580,
+        "wires": [
+            [
+                "05ecadfbe84ca4da",
+                "944e16619aef0f7a"
+            ]
+        ]
+    },
+    {
+        "id": "05ecadfbe84ca4da",
+        "type": "function",
+        "z": "4a963c049b854564",
+        "name": "",
+        "func": "var rec_msg = msg.payload.toString();\n\nvar msgJson = JSON.parse(rec_msg);\n\nvar measure_label = msgJson.measure_label;\nvar name = msgJson.name;\n\nif(measure_label === \"error\") {\n    msg.payload = \"Error in measure on \".concat(name);\n}\nelse if(measure_label === \"unreadable\") {\n    msg.payload = \"Unreadable measure on \".concat(name);\n}\nelse if(measure_label === \"75%\"){\n    msg.payload = \"75%: Container with 75% capacity \" .concat(name);\n}\nelse if(measure_label === \"50%\"){\n    msg.payload = \"50%: Container with 50% capacity \" .concat(name);\n}\nelse if(measure_label === \"20%\"){\n    msg.payload = \"20%: Container with 20% capacity \" .concat(name);\n}\nelse{\n    msg.payload = \"null\";\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 580,
+        "wires": [
+            [
+                "17983bba98d7b1ed",
+                "434c9323f956d63b",
+                "8ede1cd344fd60a5"
+            ]
+        ]
+    },
+    {
+        "id": "17983bba98d7b1ed",
+        "type": "switch",
+        "z": "4a963c049b854564",
+        "name": "75%",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "75%",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 480,
+        "wires": [
+            [
+                "7cc7f0c2b454c2d3",
+                "6d16bbc42932b4db"
+            ]
+        ]
+    },
+    {
+        "id": "434c9323f956d63b",
+        "type": "switch",
+        "z": "4a963c049b854564",
+        "name": "50%",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "50%",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1230,
+        "y": 580,
+        "wires": [
+            [
+                "7cc7f0c2b454c2d3"
+            ]
+        ]
+    },
+    {
+        "id": "8ede1cd344fd60a5",
+        "type": "switch",
+        "z": "4a963c049b854564",
+        "name": "20%",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "20%",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1210,
+        "y": 680,
+        "wires": [
+            [
+                "7cc7f0c2b454c2d3"
+            ]
+        ]
+    },
+    {
+        "id": "f39961487ce0bc73",
+        "type": "telegram sender",
+        "z": "4a963c049b854564",
+        "name": "",
+        "bot": "b84a81dcfcd77ee7",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 1570,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d16bbc42932b4db",
+        "type": "function",
+        "z": "4a963c049b854564",
+        "name": "",
+        "func": "msg.payload = {\nchatId: 1905666198,\ntype: \"message\",\ncontent: \"Bote lleno\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 480,
+        "wires": [
+            [
+                "f39961487ce0bc73"
+            ]
+        ]
+    },
+    {
+        "id": "9ef81cb7c6d33a3d",
+        "type": "mysql",
+        "z": "4a963c049b854564",
+        "mydb": "adbbbc7e3e360d56",
+        "name": "",
+        "x": 1120,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "944e16619aef0f7a",
+        "type": "function",
+        "z": "4a963c049b854564",
+        "name": "",
+        "func": "var rec_msg = msg.payload.toString();\n\nvar msgJson = JSON.parse(rec_msg);\n\nvar sensorID = msgJson.name;\nvar measure_value = msgJson.measure_value;\nvar measure_label = msgJson.measure_label;\nvar latitude = msgJson.lat;\nvar longitude = msgJson.lon;\n\n\n//msg.topic = \"INSERT INTO `sensors`.`data_sensors` (sensorID,measure_value,measure_label,latitude,longitude) VALUES ('\"+ sensorID+\"', '\" +measure_value+\"', '\"+ measure_label +\"', '\"+latitude+\"', '\"+longitude+\"');\"\nmsg.topic = \"UPDATE `sensors`.`data_sensors` SET measure_value = \"+measure_value+\", measure_label = '\"+measure_label+\"' WHERE sensorID = '\"+sensorID+\"';\"\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 800,
+        "wires": [
+            [
+                "9ef81cb7c6d33a3d"
+            ]
+        ]
+    },
+    {
+        "id": "e2f9b629547a04e2",
+        "type": "mqtt in",
+        "z": "4a963c049b854564",
+        "name": "",
+        "topic": "sensor25/ultrasom",
+        "qos": "0",
+        "datatype": "auto",
+        "broker": "9bdb4c66ecbbf2dd",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 410,
+        "y": 1120,
+        "wires": [
+            [
+                "67963c42ada1fb6d"
+            ]
+        ]
+    },
+    {
+        "id": "9bdb4c66ecbbf2dd",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "192.168.101.3",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b84a81dcfcd77ee7",
+        "type": "telegram bot",
+        "botname": "UltraSensorBot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "adbbbc7e3e360d56",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "sensors",
+        "tz": "",
+        "charset": "UTF8MB4"
+    }
+]

@@ -1,0 +1,1218 @@
+{
+	"version": 1,
+	"allow_edit": true,
+	"plugins": [],
+	"panes": [
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 21
+			},
+			"col": {
+				"3": 1,
+				"4": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][24][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][24][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][24][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][24][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][24][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 101
+			},
+			"col": {
+				"3": 3,
+				"4": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][23][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][23][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][23][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][23][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][23][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 81
+			},
+			"col": {
+				"3": 3,
+				"4": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][19][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][19][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][19][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][19][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][19][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 61
+			},
+			"col": {
+				"3": 3,
+				"4": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][15][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][15][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][15][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][15][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][15][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 21
+			},
+			"col": {
+				"3": 1,
+				"4": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][0][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][0][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][0][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][0][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][0][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 41
+			},
+			"col": {
+				"3": 3,
+				"4": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][11][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][11][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][11][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][11][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][11][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 21
+			},
+			"col": {
+				"3": 3,
+				"4": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][7][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][7][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][7][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][7][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][7][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 1
+			},
+			"col": {
+				"3": 3,
+				"4": 4
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][3][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][3][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][3][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][3][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][3][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 1
+			},
+			"col": {
+				"3": 3,
+				"4": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][2][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][2][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][2][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][2][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][2][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 1
+			},
+			"col": {
+				"3": 2,
+				"4": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][1][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][1][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][1][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][1][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][1][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 1,
+				"4": 1
+			},
+			"col": {
+				"3": 1,
+				"4": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][25][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][25][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][25][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][25][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][25][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 13,
+				"4": 61
+			},
+			"col": {
+				"3": 1,
+				"4": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][4][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][4][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][4][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][4][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][4][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 13,
+				"4": 41
+			},
+			"col": {
+				"3": 3,
+				"4": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][6][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][6][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][6][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][6][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][6][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 13,
+				"4": 41
+			},
+			"col": {
+				"3": 1,
+				"4": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][5][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][5][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][5][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][5][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][5][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 25,
+				"4": 81
+			},
+			"col": {
+				"3": 1,
+				"4": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][8][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][8][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][8][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][8][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][8][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 25,
+				"4": 21
+			},
+			"col": {
+				"3": 3,
+				"4": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][10][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][10][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][10][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][10][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][10][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 25,
+				"4": 61
+			},
+			"col": {
+				"3": 2,
+				"4": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][9][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][9][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][9][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][9][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][9][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 37,
+				"4": 101
+			},
+			"col": {
+				"3": 1,
+				"4": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][12][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][12][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][12][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][12][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][12][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 37,
+				"4": 41
+			},
+			"col": {
+				"3": 3,
+				"4": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][14][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][14][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][14][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][14][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][14][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 37,
+				"4": 81
+			},
+			"col": {
+				"3": 2,
+				"4": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][13][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][13][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][13][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][13][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][13][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 49,
+				"4": 121
+			},
+			"col": {
+				"3": 1,
+				"4": 1
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][16][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][16][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][16][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][16][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][16][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 49,
+				"4": 61
+			},
+			"col": {
+				"3": 3,
+				"4": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][18][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][18][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][18][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][18][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][18][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 49,
+				"4": 101
+			},
+			"col": {
+				"3": 2,
+				"4": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][17][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][17][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][17][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][17][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][17][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 61,
+				"4": 101
+			},
+			"col": {
+				"3": 1,
+				"4": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][20][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][20][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][20][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][20][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][20][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 61,
+				"4": 81
+			},
+			"col": {
+				"3": 3,
+				"4": 3
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][22][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][22][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": "datasources[\"Sensors\"][22][\"Measure\"]",
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][22][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][22][\"Longitude\"]"
+					}
+				}
+			]
+		},
+		{
+			"width": 1,
+			"row": {
+				"3": 61,
+				"4": 121
+			},
+			"col": {
+				"3": 2,
+				"4": 2
+			},
+			"col_width": 1,
+			"widgets": [
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][21][\"Sensor\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "text_widget",
+					"settings": {
+						"size": "regular",
+						"value": "datasources[\"Sensors\"][21][\"Label\"]",
+						"animate": true
+					}
+				},
+				{
+					"type": "gauge",
+					"settings": {
+						"value": [
+							"datasources[\"Sensors\"][21][\"Measure\"]"
+						],
+						"units": "cm",
+						"min_value": 0,
+						"max_value": "30"
+					}
+				},
+				{
+					"type": "google_map",
+					"settings": {
+						"lat": "datasources[\"Sensors\"][21][\"Latitude\"]",
+						"lon": "datasources[\"Sensors\"][21][\"Longitude\"]"
+					}
+				}
+			]
+		}
+	],
+	"datasources": [
+		{
+			"name": "Sensors",
+			"type": "JSON",
+			"settings": {
+				"url": "http://localhost/Proyecto%20IOT/userJSON.php",
+				"use_thingproxy": true,
+				"refresh": 400,
+				"method": "GET"
+			}
+		}
+	],
+	"columns": 4
+}
